@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/dishes/dishes",
+    "pages/plus/plus",
+    "pages/orders/orders",
+    "pages/set/set",
+    "pages/organize/organize"
+  ],
+  "window": {
+    "navigationBarTitleText": "小二结账",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "1a9dde",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "f6dc34"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "#000000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单管理",
+        "iconPath": "image/10.png",
+        "selectedIconPath": "image/11.png"
+      },
+      {
+        "pagePath": "pages/dishes/dishes",
+        "text": "菜品管理",
+        "iconPath": "image/10.png",
+        "selectedIconPath": "image/11.png"
+      },
+      {
+        "pagePath": "pages/organize/organize",
+        "text": "流水管理",
+        "iconPath": "image/10.png",
+        "selectedIconPath": "image/11.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "设置",
+        "iconPath": "image/10.png",
+        "selectedIconPath": "image/11.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
