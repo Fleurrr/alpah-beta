@@ -1,0 +1,18 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" data-src="{{item}}" bindtap="previewImage"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<scroll-view scroll-y="true">
+      <view class="form-box">
+        <form bindsubmit="formSubmit">
+            <input value="{{detail.name}}" placeholder="请填写菜品名称" bindinput="bindName"/>
+            <input type="number" value="{{detail.price}}" placeholder="请填写菜品价格" bindinput="bindPhone" />
+            <input value="{{detail.intro}}" placeholder="请填写菜品信息" bindinput="bindDetail"/>
+            <button class="button-green">上传照片</button>
+            <button class="button-green" formType="submit">确认修改</button>
+        </form>
+    </view>
+</scroll-view>

@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/add/add",
-    "pages/orders/orders",
     "pages/dishes/dishes",
-    "pages/set/set"
+    "pages/plus/plus",
+    "pages/orders/orders",
+    "pages/set/set",
+    "pages/organize/organize"
   ],
   "window": {
     "navigationBarTitleText": "小二结账",
@@ -31,7 +32,7 @@
         "selectedIconPath": "image/11.png"
       },
       {
-        "pagePath": "pages/add/add",
+        "pagePath": "pages/organize/organize",
         "text": "流水管理",
         "iconPath": "image/10.png",
         "selectedIconPath": "image/11.png"
